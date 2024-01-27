@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+
+        <div class="right">
+            <div class="logo">
+                <img src="images/logo.svg" id="clogo" alt="">
+            </div>
+            <div class="image">
+            </div>
+
+            <div class="text">
+                Start fot free & get <br> attractive offers today!
+            </div>
+             
+        </div>
+
+
+
+        <form id="form">
+
+            <div class="social">
+                <div class="title">Get started</div>
+                <div class="question">
+                    Already have an account?
+                <br>
+                    <span>Log In</span>
+                </div>
+                
+                <div class="btn">
+                   
+                    <div class="btn_1">
+                        <img width="30" height="30" src="https://img.icons8.com/color/30/google-logo.png" alt="google-logo"/>
+                        Google
+                    </div>
+                    <div class="btn_2">
+                        <img width="30" height="30" src="https://img.icons8.com/ios-filled/30/ffffff/facebook-new.png" alt="facebook-new"/>
+                        FaceBook 
+                    </div>
+
+                   
+                </div>
+
+                <div class="or">OR</div>
+            </div>
+
+            <div>  
+                   <label for="username">Name</label>
+                   <i class="bi bi-person-hearts"></i>
+                    <input type="text" id="username" placeholder="Name">
+                    <i class="bi bi-exclamation-circle fail_i"></i>
+                    <i class="bi bi-check2-circle succes_i"></i>
+                    <div class="error"></div>
+
+               </div>
+
+                <div>
+                    <label for="email" >Email</label>
+                    <i class="bi bi-envelope-fill"></i>
+                    <input type="email" id="email" placeholder="Email">
+                    <i class="bi bi-exclamation-circle fail_i"></i>
+                    <i class="bi bi-check2-circle succes_i"></i>
+                    <div class="error"></div>
+                </div>
+
+               <div>
+
+                   
+                   <label for="password" >Password</label>
+                   <i class="bi bi-lock-fill"></i>
+                    <input type="password" id="password" placeholder="Password">
+                    <i class="bi bi-exclamation-circle fail_i"></i>
+                    <i class="bi bi-check2-circle succes_i"></i>
+                    <div class="error"></div>
+        
+                </div>
+
+                <button type="submit">Submit</button>
+            </form>
+    </div>
+
+
+
+    
+</body>
+<script src="app.js"></script>
+</html>
